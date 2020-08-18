@@ -4,10 +4,10 @@ Breast cancer diagnosis is currently based on radiology reports written by human
 **This paper presents an automated summarization model of Dutch radiology reports using a combination of an encoder-decoder with attention and a separate BI-RADS score classifier (SVM)**. The summarization model was compared against a baseline model (encoder-decoder without attention) and performed 0.7\% better in ROUGE-L (50.8\% vs. 51.5\%). An accuracy of 83.3\% was achieved on the BI-RADS score classification. Additionally, a small qualitative evaluation with experts found the generated conclusions to be comprehensible and cover mostly relevant content, while their factual correctness is rather low. Overall, the developed model solves the summarization task well but some enhancements could improve the performance.
 
 ## Example of a report containing the findings, the original and generated conclusion
-![Image of an example report](example_report.png)
+![Image of an example report](Images/example_report.png)
 
 ## The model setup
-![Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1])](model_explanation.png "Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1]")
+![Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1])](Images/model_explanation.png "Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1]")
 Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1])
 
 ## Data
