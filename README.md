@@ -13,6 +13,31 @@ Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 
 ## Data
 The used dataset includes roughly 50,000 breast cancer radiology reports from the Ziekenhuis Groep Twente (ZGT) hospital in Hengelo (Netherlands) recorded between 2012 and 2018. The reports are in Dutch and include data about clinical information, findings and conclusion. The clinical information and findings are treated as the input sequence. They contain the patient's medical history and result findings from the radiology procedures. This information usually indicates the breast cancer severity which is relevant for the conclusion.
 
+## Running the notebooks
+1. Preprocessing: 
+    -  given a dataset with a similar structure of the one used here
+    -  paths and columnnames need to be adjusted
+    -  the entire notebook can be run and the preprocessed training, validation and test data will be saved in new files
+
+2. Baseline:
+    - check if all necessary libraries are installed
+    - again the entire notebook can be run using the prepared data from step 1
+    - the model will be trained and the results will be saved to an excel file
+  
+3. Hyperparameter tuning of the encoder-decoder model with attention:
+    -  check if all necessary libraries are installed
+    -  the entire notebook can be run
+    -  performs hyperparameter tuning (the tested values might have to be adjusted)
+    -  saves the results of each combination to an excel file
+
+4. BI-RADS score extraction and classification
+    -  can be run independently of step 2 and 3
+    -  uses the preprocessed data of step 1
+    -  the strings used to extract the Bi-rads score in the conclusions might have to be adjusted to the data
+    -  the entire notebook can be run
+    -  the scores are extracted and used as labels
+    -  different classifiers are trained and tested on the data
+
 ## TODO (Future Work)
 -  Apply model to an english data set (e.g. MIMIC III database)
 -  Improve performance by testing small modifications on both models
