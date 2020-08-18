@@ -15,7 +15,7 @@ The used dataset includes roughly 50,000 breast cancer radiology reports from th
 
 ## Paper
  [unpublished] <br />
- E. Nguyen, D. Theodorakopoulos et al. <br />
+ E. Nguyen, D. Theodorakopoulos, S. Pathak, J. Geerdink, O. Vijlbrief and C. Seifert <br />
  "Automated Summarization of Radiology Reports" <br />
  2020
 
