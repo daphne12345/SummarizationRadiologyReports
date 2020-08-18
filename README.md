@@ -13,6 +13,17 @@ Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 
 ## Data
 The used dataset includes roughly 50,000 breast cancer radiology reports from the Ziekenhuis Groep Twente (ZGT) hospital in Hengelo (Netherlands) recorded between 2012 and 2018. The reports are in Dutch and include data about clinical information, findings and conclusion. The clinical information and findings are treated as the input sequence. They contain the patient's medical history and result findings from the radiology procedures. This information usually indicates the breast cancer severity which is relevant for the conclusion.
 
+## TODO (Future Work)
+-  Apply model to an english data set (e.g. MIMIC III database)
+-  Improve performance by testing small modifications on both models
+-  Use a list of stopwords adapted to this task
+-  Structuring of the findings in a preprocessing step
+-  Structuring of the conclusions
+-  Extract features (e.g. breast size) of the findings as labeled information
+-  Check the resulting conclusions for grammar
+-  Use a Deep Learning model for the classification task
+
+
 ## Paper
  [unpublished] <br />
  E. Nguyen, D. Theodorakopoulos, S. Pathak, J. Geerdink, O. Vijlbrief and C. Seifert <br />
