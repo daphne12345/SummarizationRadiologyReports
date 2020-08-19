@@ -1,3 +1,4 @@
+#Class from https://github.com/thushv89
 import tensorflow as tf
 import os
 from tensorflow.python.keras.layers import Layer
