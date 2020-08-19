@@ -1,7 +1,9 @@
-# Automated Summarization of Radiology Reports
+# Automated Summarization of Breast Cancer Radiology Reports
 
-Breast cancer diagnosis is currently based on radiology reports written by humans. Manually summarizing the reports is time-consuming and leads to high text variability.
-**This paper presents an automated summarization model of Dutch radiology reports using a combination of an encoder-decoder with attention and a separate BI-RADS score classifier (SVM)**. The summarization model was compared against a baseline model (encoder-decoder without attention) and performed 0.7\% better in ROUGE-L (50.8\% vs. 51.5\%). An accuracy of 83.3\% was achieved on the BI-RADS score classification. Additionally, a small qualitative evaluation with experts found the generated conclusions to be comprehensible and cover mostly relevant content, while their factual correctness is rather low. Overall, the developed model solves the summarization task well but some enhancements could improve the performance.
+<!---Breast cancer diagnosis is currently based on radiology reports written by humans. Manually summarizing the reports is time-consuming and leads to high text variability.
+**This paper presents an automated summarization model of Dutch radiology reports using a combination of an encoder-decoder with attention and a separate BI-RADS score classifier (SVM)**. The summarization model was compared against a baseline model (encoder-decoder without attention) and performed 0.7\% better in ROUGE-L (50.8\% vs. 51.5\%). An accuracy of 83.3\% was achieved on the BI-RADS score classification. Additionally, a small qualitative evaluation with experts found the generated conclusions to be comprehensible and cover mostly relevant content, while their factual correctness is rather low. Overall, the developed model solves the summarization task well but some enhancements could improve the performance.--->
+
+Breast cancer diagnosis is currently based on radiology reports written by humans. Manually summarizing the reports is time-consuming and leads to high text variability. **This project presents an automated summarization model of Dutch radiology reports using a combination of an encoder-decoder with attention and a separate BI-RADS score classifier (SVM) in Python using Tensorflow, Keras and SKLearn**. It contains notebooks for the summarization model (encoder-decoder with attention), baseline model (encoder-decoder without attention), and BI-RADS score classification (cancer severity score). 
 
 ## Example of a report containing the findings, the original and generated conclusion
 ![Image of an example report](Images/example_report.png)
@@ -22,6 +24,7 @@ This repository is using Python >=3.7.
 1. Preprocessing: 
     -  Prerequisite: dataset with a similar structure of the one used here (Full text and target summaries split)
     -  Paths and columnnames need to be adjusted
+    -  If using a different language than Dutch: Adjust language of stop words
     -  The entire notebook can be run and the preprocessed training, validation and test data will be saved in new files
 
 2. Baseline:
