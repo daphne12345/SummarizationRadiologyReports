@@ -6,7 +6,7 @@
 Breast cancer diagnosis is currently based on radiology reports written by humans. Manually summarizing the reports is time-consuming and leads to high text variability. **This project presents an automated summarization model of Dutch radiology reports using a combination of an encoder-decoder with attention and a separate BI-RADS score classifier (SVM) in Python using Tensorflow, Keras and SKLearn**. It contains notebooks for the summarization model (encoder-decoder with attention), baseline model (encoder-decoder without attention), and BI-RADS score classification (cancer severity score). 
 
 ## Example of a report containing the findings, the original and generated conclusion
-![Image of an example report](Images/example_report.png)
+![Image of an example report](Images/ex_report_translated.PNG)
 
 ## The summarization model setup
 ![Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1])](Images/model_explanation.png "Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1]")
