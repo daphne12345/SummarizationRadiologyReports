@@ -9,7 +9,7 @@ Breast cancer diagnosis is currently based on radiology reports written by human
 ![Image of an example report](Images/ex_report_translated.PNG)
 
 ## The summarization model setup
-![Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1])](Images/model_explanation.png "Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1]")
+![Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1])](Images/hybrid_model.PNG "Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1]")
 Encoder-decoder model with Attention mechanism (Own diagram based on See et al. 2017 [1]) <br/>
 The <a href="https://github.com/thushv89/attention_keras">attention layer</a> used is Bahdanau's attention [2].
 
