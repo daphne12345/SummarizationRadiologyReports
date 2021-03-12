@@ -58,10 +58,7 @@ This repository is using Python >=3.7.
 
 
 ## Paper
- [unpublished] <br />
- E. Nguyen, D. Theodorakopoulos, S. Pathak, J. Geerdink, O. Vijlbrief and C. Seifert <br />
- "Automated Summarization of Radiology Reports" <br />
- 2020.
+ Nguyen, E., Theodorakopoulos, D., Pathak, S., Geerdink, J., Vijlbrief, O., van Keulen, M., & Seifert, C. (2021). A Hybrid Text Classification and Language Generation Model for Automated Summarization of Dutch Breast Cancer Radiology Reports. In 2020 IEEE Second International Conference on Cognitive Machine Intelligence (CogMI) (pp. 72-81). [9319371] IEEE. https://doi.org/10.1109/CogMI50398.2020.00019
 
 
 ## References
